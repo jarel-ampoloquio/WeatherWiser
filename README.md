@@ -29,32 +29,13 @@ Allows checking multiple cities without restarting the script.
 
 ---
 
-## 📦 Requirements
-
-Install dependencies:
-
-```
-pip install requests
-```
-
-You also need an API key from **OpenWeatherMap**:  
-https://openweathermap.org/api
-
-Replace this placeholder in the code:
-
-```
-API_KEY = "YOUR_API_KEY_HERE"
-```
-
----
-
 ## 🛠 How to Run
 
 1. Clone the repository:
 
 ```
-git clone https://github.com/your-username/your-repo.git
-cd your-repo
+git clone https://github.com/jarel-ampoloquio/WeatherWiser.git
+cd WeatherWiser
 ```
 
 2. Run the script:
@@ -100,7 +81,7 @@ UV Risk Level         : Moderate UV risk 🟡
 ## 🧱 Project Structure
 
 ```
-📁 travel-weather-assistant/
+📁 WeatherWiser/
  ├── weather.py        # Main script
  ├── README.md         # Documentation
  └── requirements.txt  # Dependencies (optional)
@@ -114,28 +95,3 @@ UV Risk Level         : Moderate UV risk 🟡
 - OpenWeatherMap API  
 - ASCII Art  
 - Simple conditional logic & functions  
-
----
-
-## ⚠️ Important Notes
-
-- Do **NOT** commit your real API key to GitHub.  
-- Create a `.env` file or store your API key securely.
-
-Example:
-
-```
-API_KEY=your_key_here
-```
-
----
-
-## 📬 Contributing
-
-Pull requests are welcome!
-
----
-
-## 📄 License
-
-MIT License
