@@ -41,7 +41,7 @@ cd WeatherWiser
 2. Run the script:
 
 ```
-python weather.py
+python3 weatherwiser.py
 ```
 
 3. Enter any city name to view the weather and travel suggestions.
@@ -82,7 +82,7 @@ UV Risk Level         : Moderate UV risk 🟡
 
 ```
 📁 WeatherWiser/
- ├── weather.py        # Main script
+ ├── weatherwiser.py        # Main script
  ├── README.md         # Documentation
  └── requirements.txt  # Dependencies (optional)
 ```
